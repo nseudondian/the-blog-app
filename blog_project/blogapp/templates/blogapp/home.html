@@ -1,0 +1,9 @@
+{% extends 'blogapp/base.html' %}
+{% block content %}
+    {% for items in posts %}
+        <h5>{{items.title}}</h5>
+        <p class="font-weight-bold">{{items.content}}</p>
+        <p>{{items.author}}</p>
+        <small>{{items.date}}</small>
+    {% endfor %}
+{% endblock content %}

@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#banner-section .col-md-8{
+    margin-top: 25px;
+}
+
+#banner-section .col-md-4{
+    margin-top: 25px;
+}

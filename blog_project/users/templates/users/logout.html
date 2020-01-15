@@ -1,0 +1,15 @@
+{% extends 'blogapp/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div>
+                    <small>
+                        You are logged Out<a href="{% url 'login' %}" class="ml-2">Sign In</a>
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
