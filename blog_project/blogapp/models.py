@@ -7,6 +7,7 @@ class post(models.Model):
     content = models.TextField()
     author = models.ForeignKey(User, on_delete = models.CASCADE)
     date = models.DateTimeField(default = timezone.now)
+    country = models.TextField()
 
     def __str__(self):
         self.title
